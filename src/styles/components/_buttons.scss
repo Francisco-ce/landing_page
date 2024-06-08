@@ -1,0 +1,27 @@
+.button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap; //faz com qeu o texto fique na mesma linha//
+
+    &--primary {
+        color: #fff;
+        background-color: #4f2ac3;
+    }
+
+    @media (max-width: 640px) {
+        display: flex;
+        // width: 100%;
+        align-items: center; //usa para quando tiver display flex e alinhar na vertical
+        justify-content: center;
+    }
+
+    @media (max-width: 1024px) {
+        display: flex;
+        // width: 100%;
+        align-items: center; //usa para quando tiver display flex e alinhar na vertical
+        justify-content: center;
+    }
+}
