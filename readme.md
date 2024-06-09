@@ -18,3 +18,8 @@ Na pasta .gitignore:
 - .parcel-cache
 - dist
 - node_modules
+
+
+retirei do package.json
+
+  // "main": "index.js", removemos para fazer funcionar, não entendi porque
